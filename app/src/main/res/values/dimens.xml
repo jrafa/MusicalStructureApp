@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_sixteen">16dp</dimen>
+    <dimen name="padding_sixteen">16dp</dimen>
+    <dimen name="grid_view_spacing">10dp</dimen>
+    <dimen name="grid_view_column_width">150dp</dimen>
+    <dimen name="text_size_eighteen">18sp</dimen>
+    <dimen name="text_size_sixteen">16sp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_genre_songs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAppBackground"
+        android:textAllCaps="true"
+        android:text="@string/genre" />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/songs_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/button_genre_songs"
+        android:background="@color/colorAppBackground"
+        android:divider="@color/colorAppText"
+        android:dividerHeight="@dimen/divider_height"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_sixteen"
+        android:paddingLeft="@dimen/padding_sixteen"
+        android:paddingRight="@dimen/padding_sixteen"
+        android:paddingTop="@dimen/padding_sixteen"></ListView>
+</RelativeLayout>
